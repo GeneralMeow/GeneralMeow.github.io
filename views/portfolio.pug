@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  header
+      .centering
+        .logo
+          p Adventures in Coding While Brown
+        nav
+          ul
+            li
+              a(href='http://localhost:3000/about') About
+            li
+              a(href='https://www.linkedin.com/in/rcbrown84/', target='_blank') LinkedIn
+            li
+              a(href='https://www.github.com/generalmeow', target='_blank') Github
+            li
+              a(href='https://twitter.com/_GeneralMeow_', target='_blank') Twitter
+            li
+              a(href='http://localhost:3000/portfolio') Portfolio
+  main
+    .page
+      .centering.cf
+        ul.breadcrums
+          li
+            a(href='/') Home
+      .centering
+        .main-layout
+          h1 RC's Portfolio
+          ul.posts
+            li.post
+              h1 Wrecka Stow Record Store <br><br>
+                a(href="http://possiblegazer-wreckastow.herokuapp.com") Live link to Wrecka Stow
+              p Wrecka Stow is a simple content management system that allows users to add, delete, or update [records] books. Books entered in the system can be viewed in a listing, or searched for using basic searches (title, author, genre). This project was a play on a bookstore but using records/musicians that are relevant to the aesthetic we were going for when creating this project. Here's a link to the Github repo: https://github.com/breyana/possible-gazer-bookstore
+              img.portoneimage(src="http://i66.tinypic.com/35i0fiv.png")
+              img.portoneimage(src="http://i68.tinypic.com/1zyg3fs.png")
+              img.portoneimage(src="http://i67.tinypic.com/vfzi1e.png")
+            li.post
+              h1 Text A Bae <br><br>
+                a(href="https://text-a-bae-app.herokuapp.com/views/index.html") Live link to Text A Bae
+              p Text a bae is a program where you can send SMS messages via the web browser Here's a link to the Github repo: https://github.com/GeneralMeow/textABaeApp
+              img.portoneimage(src="http://i63.tinypic.com/2rqn5lg.png")
+            li.post
+              h1.headerspace Open Source Software Contributions
+                li.post
+                  h2 Ancient Beasts
+                    p Ancient Beast is a turn based strategy indie game project, played online against other people, featuring a wide variety of creatures to acquire and items to equip onto, putting them to use in order to defeat your opponents. This project was carefully designed to be easy to learn, fun to play and hard to master.
+                  img.portoneimage(src="http://i65.tinypic.com/23lb2fq.png")
+                li.post
+                  h2 Done.js
+                    p DoneJS is an open source JavaScript framework that makes it easy to build high performance, real-time web and mobile applications.
+                  img.portoneimage(src="http://i64.tinypic.com/wi5vmp.png")
+  footer
+    .centering
+      .row
+        .col-1
+          ul.links
+            li
+              a(href='#') Stuff Here
+            li
+              a(href='#') More Stuff
+            li
+              a(href='#') More Links
+        .col-2
+          ul.links
+            li
+              a(href='#') Previous Posts
+            li
+              a(href='#') Blah blah

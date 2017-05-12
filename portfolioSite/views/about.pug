@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  header
+      .centering
+        .logo
+          p Adventures in Coding While Brown
+        nav
+          ul
+            li
+              a(href='http://localhost:3000/about') About
+            li
+              a(href='https://www.linkedin.com/in/rcbrown84/', target='_blank') LinkedIn
+            li
+              a(href='https://www.github.com/generalmeow', target='_blank') Github
+            li
+              a(href='https://twitter.com/_GeneralMeow_', target='_blank') Twitter
+            li
+              a(href='http://localhost:3000/portfolio') Portfolio
+  main
+    .page
+      .centering.cf
+        ul.breadcrums
+          li
+            a(href='/') Home
+      .centering
+        .main-layout
+          h1 About RC
+          img.aboutimage(src="http://i64.tinypic.com/i769nb.jpg" alt="Image of RC owner of the site")
+          ul.posts
+            li.post
+              p I'm a non-binary QPOC who has a passion for visually stimulating, lightweight front-end technologies. I have 1 year of experience teaching prospective engineering students at Learners Guild, Black Girls Code and helped to grow Lil Bytes, a coding program, to help teach children of all ages in the multi-faceted and complex elements of Javascript, HTML, CSS and other frameworks/libraries.
+              p I fell in love with coding and creating simple, complex applications with a few keystrokes a long time ago and consider myself a natural teacher that enjoys sharing my knowledge with others. I thrive off of drawing from my own personal experience and explaining engineering concepts in a way that anyone, including those with little to no prior technical knowledge, can understand.
+  footer
+    .centering
+      .row
+        .col-1
+          ul.links
+            li
+              a(href='#') Stuff Here
+            li
+              a(href='#') More Stuff
+            li
+              a(href='#') More Links
+        .col-2
+          ul.links
+            li
+              a(href='#') Previous Posts
+            li
+              a(href='#') Blah blah
