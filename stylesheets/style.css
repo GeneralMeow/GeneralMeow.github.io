@@ -1,0 +1,268 @@
+/* ---------------------
+START Reset
+----------------------*/
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+html {
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a,
+a:visited {
+  color: white;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: grey;
+  color: grey;
+  text-decoration: none;
+}
+a:hover,
+a:visited:hover {
+  text-decoration: underline;
+}
+/* ---------------------
+END Reset
+----------------------*/
+.portoneimage {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.aboutimage {
+  margin-top: 20px;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centering {
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  background: black;
+}
+header .logo {
+  position: relative;
+  height: 62px;
+}
+header .logo a {
+  font: 0/0 a;
+  -webkit-background-size: 176px 31px;
+  background-size: 176px 31px;
+  width: 220px;
+  height: 95%;
+  display: block;
+  border: 0;
+  outline: 0;
+}
+.logo{
+  color: white;
+  padding-top: 10px;
+  font-size: 40px;
+}
+nav ul {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  transform: translateY(50%);
+}
+nav ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+nav ul li {
+  transform: translateY(-50%);
+}
+nav ul li a {
+  color: white;
+}
+.headerspace{
+  margin-bottom: 20px;
+}
+.page {
+  background-color: #EEE;
+  padding: 15px 0px;
+}
+.page h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.breadcrums {
+  float: left;
+  margin-bottom: 15px;
+}
+.breadcrums > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.breadcrums > li:after {
+  margin-left: 15px;
+  content: "";
+}
+.posts {
+  padding: 15px 2%;
+  text-align: center;
+}
+.posts li {
+  margin: auto;
+  max-width: 960px;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.posts h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.posts p {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+footer {
+  color: white;
+  background-color: black;
+  padding: 15px 0 40px;
+}
+footer a {
+  color: white;
+}
+footer .row {
+  display: table-row;
+}
+footer .row > div {
+  min-width: 300px;
+  display: table-cell;
+}
+footer ul.links li,
+footer p {
+  line-height: 2;
+}
